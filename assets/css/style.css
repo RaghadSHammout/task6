@@ -1,0 +1,147 @@
+:root {
+    --bg-light-color: #F3F2EC;
+    --brown-color: #C5A992;
+    --gray-color: #EDEBE4;
+    --gray-color2: #AFAFAF;
+    --gold-color: #7D6F3D;
+    --gray-text-color: #545758;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prata', serif !important;
+
+}
+
+.bg-light-color{
+    background-color: var(--bg-light-color);
+
+}
+
+.golden-color{
+    color: var(--gold-color);
+}
+.brown-color {
+    color: var(--brown-color);
+    border-color: var(--brown-color);
+}
+
+.gray-color {
+    color: var(--gray-color);
+    background-color: var(--gray-color);
+}
+
+.gray-color2 {
+    color: var(--gray-color2);
+}
+
+.gray-text-color {
+    color: var(--gray-text-color);
+}
+
+
+.slider-img {
+    max-height: 450px;
+    border-radius: 10px;
+}
+
+.befor,
+.after {
+    height: 1px;
+    background-color: #E0E0E0;
+}
+
+.book-title {
+    color: var(--gold-color);
+}
+
+.book-author {
+    color: var(--gray-color2);
+}
+
+.book-img {
+    height: 300px;
+    width: auto;
+}
+
+.book-bg {
+    background-color: var(--gray-color);
+    height: 400px;
+    width: 300px;
+}
+
+
+
+.golden-border {
+    border-bottom: 3px solid var(--gold-color);
+}
+
+.book-cover {
+    border: 10px solid white;
+    height: 450px;
+}
+
+.shop:hover {
+    color: var(--gold-color);
+}
+
+.nav-link.active{
+    background-color: var(--bg-light-color) !important;
+}
+/* popular book */
+.book-card {
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.book-image {
+    background-color: #f8f9fa;
+
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.book-title {
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+.book-author {
+    color: gray;
+    font-size: 0.9rem;
+}
+/* taps */
+.nav-tabs .nav-link {
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-tabs .nav-link.active {
+    color: #000;
+    border-bottom: 2px solid var(--gold-color); 
+}
+/* our newsletter */
+.underline {
+    width: 50px;
+    height: 2px;
+    background-color: goldenrod;
+    border: none;
+    margin-top: 8px;
+}
+
+input.form-control::placeholder {
+    color: #aaa;
+}
+
+form button {
+    color: black;
+}
+
+
